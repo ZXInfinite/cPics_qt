@@ -1,0 +1,14 @@
+[Info]
+Num = 2
+
+[0]
+Picture_Path=Box.png
+is_show = true
+x=0
+y=0
+
+[1]
+Picture_Path=NineBox.png
+is_show = true
+x=100
+y=100
