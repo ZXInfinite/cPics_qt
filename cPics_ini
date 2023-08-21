@@ -1,14 +1,16 @@
 [Info]
-Num = 2
+Num=2
 
 [0]
-Picture_Path=Box.png
-is_show = true
+Picture_Path=ico\\Box.png
+is_show=true
 x=0
 y=0
+Scaled=0.8
 
 [1]
-Picture_Path=NineBox.png
-is_show = true
-x=100
-y=100
+Picture_Path=ico\\Box.png
+is_show=true
+x=300
+y=300
+Scaled=0.8

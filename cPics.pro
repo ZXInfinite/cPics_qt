@@ -9,16 +9,12 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    clabitem.cpp \
     main.cpp \
     vqlabel.cpp \
-    wLable.cpp \
     wcontrol.cpp
 
 HEADERS += \
-    clabitem.h \
     vqlabel.h \
-    wLable.h \
     wcontrol.h
 
 RC_ICONS = ico/Ninebox.ico
@@ -30,3 +26,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     README.md
+
+RESOURCES += \
+    res.qrc

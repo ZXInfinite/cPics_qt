@@ -15,8 +15,8 @@ int main(int argc, char *argv[])
         splash->showMessage(QObject::tr("Setting up the main window..."),topRight, Qt::white);//Show Info
     */
 
-    wControl w;
-//    w.show();
+    wControl w(&a,nullptr);
+    // w.show();
 
     return a.exec();
 }

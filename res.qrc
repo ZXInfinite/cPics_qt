@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/ICO">
+        <file>ico/Box.ico</file>
+        <file>ico/Ninebox.ico</file>
+    </qresource>
+</RCC>
